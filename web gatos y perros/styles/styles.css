@@ -1,0 +1,17 @@
+body {
+    padding-top: 56px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
