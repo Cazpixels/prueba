@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5
+}
+
+.bg-light-purple {
+    background-color: #29BCB3; /* Color lila claro */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.custom-nav-item {
+    color: #007bff; /* Cambia este color al color de tu nav principal */
+    text-decoration: none;
+}
+
+.custom-nav-item:hover {
+    color: #0056b3; /* Cambia este color al color de tu nav principal cuando está en hover */
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.border-section {
+    max-width: 60%;
+   
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+}
+
+#koke_img{
+    width: 500px;
+    height: auto;
+}
+
+.img-fluid-terapy{
+    width: 200px;
+}
+
+  [data-aos] {
+    opacity: 0;
+    transition-property: opacity, transform;
+  }
+
+  
+
+    /* Estilos extra para la sección hero del contacto */
+.hero-contacto {
+      background: url('images/balloons.jpg') no-repeat center center;
+      background-size: cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);}
